@@ -1,59 +1,78 @@
+/* latin */
 @font-face {
-    font-family:Lettrine ;
-    src: url(./asset/PRECIOSA.TTF);
+    font-family: 'harukaze';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./asset/Harukaze.ttf) format('truetype');
 }
 
-*{
+@font-face {
+    font-family: 'Cherry';
+    font-style: normal;
+    font-weight: bolder;
+    src: url(./asset/Cherry\ Monospace-Light.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: century;
+    font-family: "Cherry";
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     gap: 35px;
+    font-family: ;
 }
 
 
-li{
+li {
     list-style-type: none;
 }
 
 a:link {
     text-decoration: none;
-  }
+}
 
-  a {
+a {
     color: black;
-  }
+}
 
-  header{
+header {
     background-color: #f0f8f7;
     padding: 15px;
-  }
-  
- .contenu{
+    height: 150px;
+}
+
+.contenu {
     position: relative;
 
-   }
+}
 
-.topleft{
+.topleft {
     position: absolute;
     top: 8px;
-    left: 16xp;
+    left: 38%;
     font-size: 18px;
+    color: white;
+    font-family: "cherry";
+    font-size: 200%;
+
 }
-   
+
 img {
     width: 100%;
     height: auto;
     opacity: 1;
 }
 
-#logo{
-    font-size: 30px;
-    font-family:Lettrine
-
+#logo {
+    font-size: 80px;
+    font-family: "harukaze";
 }
