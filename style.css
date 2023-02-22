@@ -22,13 +22,18 @@ html {
     margin: 0;
     box-sizing: border-box;
     font-family: "Cherry";
+    flex-shrink: 3;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 35px;
-    font-family: ;
+    gap: 5%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    flex-shrink: 3;
+    flex-grow: 1;
 }
 
 
@@ -47,7 +52,7 @@ a {
 header {
     background-color: #f0f8f7;
     padding: 15px;
-    height: 150px;
+    height: 90px;
 }
 
 .contenu {
