@@ -113,35 +113,81 @@ img {
 .Services {
     display: flex;
     justify-content: center;
-    gap: 20%;
+    gap: 1%;
+    transition: 0, 3 all;
 }
 
 
 
 .telephone {
-    width: 12%;
+    width: 28%;
     height: 12%;
     border: 1px solid black;
-    background: rgb(182, 182, 237);
+    background: #fcfceb;
     padding: 7%;
     margin: 2%;
     border-radius: 10px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
+}
+
+.text-telephone {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: large;
 }
 
 .tablette {
-    width: 9%;
-    height: 9%;
+    width: 60%;
+    height: 40%;
     border: 1px solid black;
-    background: rgb(182, 182, 237);
+    background: #fcfceb;
     padding: 3%;
     margin: 2%;
     border-radius: 10px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
+}
+
+.text-tablette {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.montre {
+    width: 60%;
+    height: 40%;
+    border: 1px solid black;
+    background: #fcfceb;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-montre {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.tablette-montre {
+    gap: 20%;
+    margin: top;
 }
 
 .nouveaute {
@@ -155,4 +201,84 @@ img {
     max-width: 100%;
     height: auto;
     display: flex;
+}
+
+.item:hover {
+    transition: 0.3 all;
+    box-shadow: -8px 8px 2px 1px rgb(0, 0, 0, .2);
+}
+
+
+/* Formulaire */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Phone */
+
+@media (max-width: 600px) {
+    .principale {
+        max-width: 170%;
+    }
+
+    .contenu {
+        width: 140%;
+    }
+}
+
+/* PC*/
+
+@media (min-width: 600px) {
+
+    .principale {
+        max-width: 90%;
+    }
+
+    .contenu {
+        width: 100%;
+    }
+}
+
+
+.page4.html {
+    
 }
