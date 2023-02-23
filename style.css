@@ -13,6 +13,10 @@
     src: url(./asset/Cherry\ Monospace-Light.ttf) format('truetype');
 }
 
+.principale {
+    display: flex;
+}
+
 body {
     margin: 0;
 }
@@ -57,18 +61,18 @@ header {
 
 .contenu {
     position: relative;
-
+    color: rgb(4, 0, 0);
 }
 
 .topleft {
     position: absolute;
-    top: 8px;
-    left: 38%;
-    font-size: 18px;
+    top: 20px;
+    right: 37%;
+    height: 100px;
     color: white;
+
     font-family: "cherry";
     font-size: 200%;
-
 }
 
 img {
@@ -81,3 +85,19 @@ img {
     font-size: 80px;
     font-family: "harukaze";
 }
+
+.finbar {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    ;
+    flex-shrink: 3;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #f0f8f7;
+    height: 0%;
