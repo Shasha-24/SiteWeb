@@ -38,6 +38,7 @@ html {
     padding: 10px;
     flex-shrink: 3;
     flex-grow: 1;
+    transition: 0.6s ease;
 }
 
 
@@ -61,6 +62,7 @@ header {
 
 .contenu {
     position: relative;
+    bottom: 20%;
     color: rgb(4, 0, 0);
 }
 
@@ -70,9 +72,8 @@ header {
     right: 37%;
     height: 100px;
     color: white;
-
     font-family: "cherry";
-    font-size: 200%;
+    font-size: 80px;
 }
 
 img {
@@ -93,7 +94,6 @@ img {
     margin: auto;
     width: 50%;
     padding: 10px;
-    ;
     flex-shrink: 3;
     flex-grow: 1;
 }
@@ -101,3 +101,58 @@ img {
 .footer {
     background-color: #f0f8f7;
     height: 0%;
+}
+
+.scroll-down {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+}
+
+
+.Services {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+
+
+.telephone {
+    width: 12%;
+    height: 12%;
+    border: 1px solid black;
+    background: rgb(182, 182, 237);
+    padding: 7%;
+    margin: 2%;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.tablette {
+    width: 9%;
+    height: 9%;
+    border: 1px solid black;
+    background: rgb(182, 182, 237);
+    padding: 3%;
+    margin: 2%;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.nouveaute {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
