@@ -120,8 +120,8 @@ img {
 
 
 .telephone {
-    width: 28%;
-    height: 12%;
+    width: 23%;
+    height: 10%;
     border: 1px solid black;
     background: #fcfceb;
     padding: 7%;
@@ -142,7 +142,7 @@ img {
 }
 
 .tablette {
-    width: 60%;
+    width: 52.60%;
     height: 40%;
     border: 1px solid black;
     background: #fcfceb;
@@ -153,7 +153,6 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .text-tablette {
@@ -165,7 +164,7 @@ img {
 
 
 .montre {
-    width: 60%;
+    width: 52.60%;
     height: 40%;
     border: 1px solid black;
     background: #fcfceb;
@@ -187,7 +186,7 @@ img {
 
 .tablette-montre {
     gap: 20%;
-    margin: top;
+    margin: 1.45%;
 }
 
 .nouveaute {
@@ -210,6 +209,83 @@ img {
 
 
 /* Formulaire */
+
+.login-banner {
+    background-color: #eee;
+    padding: 1.5rem;
+    width: 96.85%;
+}
+
+/* Styles pour le conteneur principal */
+.form-structor {
+    position: relative;
+    height: 400px;
+    width: 500px;
+    background-color: #eee;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+
+.form-title {
+    margin-left: 170px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.sinscrire-bouton{
+    display: flex;
+        justify-content: center;
+    margin-top: 5%;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.connecter-bouton {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,6 +355,4 @@ img {
 }
 
 
-.page4.html {
-    
-}
+.page4.html {}
