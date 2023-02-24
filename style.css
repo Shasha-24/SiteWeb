@@ -318,10 +318,150 @@ img {
 }
 
 
+@media only screen and (min-width: 768px) and (max-width: 1440px) .nv14-visual-lnb__headline-menu-wrap {
+    padding: 0vw 1.66666667vw;
+    min-height: 3.88888889vw;
+}
+
+.nv14-visual-lnb__headline-menu-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 24px;
+    min-height: 56px;
+    background-color: #fff;
+}
+
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.nv14-visual-lnb__container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    font-size: 0;
+    color: #000;
+    z-index: 1950;
+}
+
+
+:root {
+    --swiper-navigation-size: 44px;
+}
+
+:root {
+    --swiper-theme-color: #007aff;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.nv14-visual-lnb__headline-menu-wrap:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
 
 
 
 
+form{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    form {
+        display: block;
+        g
+        margin-top: 0em;
+    }
 
 
 
