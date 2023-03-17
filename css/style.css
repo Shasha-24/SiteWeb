@@ -536,11 +536,9 @@ textarea {
 }
 
 
-
 /*-------------------------------------*/
 /*nos produits*/
 /*-------------------------------------*/
-
 
 
 .liste-produits {
@@ -562,11 +560,11 @@ textarea {
     border-radius: 10px;
 }
 
-.liste-produits :hover {
+.produit:hover {
     background-color: #dcd6d6;
     transition: width 1s;
     box-shadow: 10px 10px 5px rgb(116, 116, 119);
-    transition: box-shadow .3s;
+    transition: box-shadow 0.3s;
 }
 
 .produit button {
@@ -584,6 +582,42 @@ textarea {
     background-color: #957A62;
 }
 
+/*-------------------------------------*/
+/* Téléphone */
+/*-------------------------------------*/
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box:hover {
+    background-color: #dcd6d6;
+    transition: width 1s;
+    box-shadow: 10px 10px 5px rgb(116, 116, 119);
+    transition: box-shadow 0.3s;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 /*-------------------------------------*/
@@ -680,3 +714,21 @@ textarea {
 /*-------------------------------------*/
 /*End :)*/
 /*-------------------------------------*/
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+}
