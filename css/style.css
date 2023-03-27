@@ -1,7 +1,6 @@
 /*-------------------------------------*/
 /*CSS GLOBAL*/
 /*CSS de tout le site, de toutes les pages*/
-/*Pense à mettre les commentaires en anglais plus tard, on m'a dit qu'il faut tjrs y mettre en anglais !*/
 /*-------------------------------------*/
 
 
@@ -86,7 +85,6 @@ header {
     background-color: #f0f8f7;
     padding: 15px;
     height: 90px;
-    width: 99.70%;
 }
 
 .contenu {
@@ -300,7 +298,6 @@ img {
 .login-banner {
     background-color: #eee;
     padding: 0.8rem;
-    width: 100%;
 }
 
 
@@ -591,11 +588,12 @@ textarea {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 300px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
-    background-color: #f5f5f5;
-    padding: 20px;
+    padding: 90px;
     border-radius: 10px;
+    margin-left: 8%;
+    margin-bottom: 5%;
 }
 
 .box {
@@ -605,6 +603,7 @@ textarea {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 .box:hover {
@@ -619,6 +618,20 @@ textarea {
     max-height: 100%;
 }
 
+.container button {
+    background-color: #b0947c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    top: 650px;
+}
+
+.contenair button:hover {
+    background-color: #957A62;
+}
 
 /*-------------------------------------*/
 /* Phone */
@@ -664,7 +677,7 @@ textarea {
 
 
 .arrowIndex {
-    position: relative;
+    position: absolute;
     bottom: 10px;
     left: 1400px;
     z-index: 9;
@@ -687,7 +700,7 @@ textarea {
 }
 
 .arrowProduits {
-    position: relative;
+    position: absolute;
     bottom: 10px;
     left: 1400px;
     z-index: 9;
@@ -714,21 +727,3 @@ textarea {
 /*-------------------------------------*/
 /*End :)*/
 /*-------------------------------------*/
-
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
-.box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-
-.box img {
-    max-width: 100%;
-    max-height: 100%;
-}
